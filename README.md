@@ -10,7 +10,7 @@
 
 ## Testar 
 
-- npm test: Executa os testes. Foi criado um script no package.json com o seguinte comando: "test": "percy exec -- cypress run"
+- Para realização dos testes, basta digitar no terminar o comando " npm test ". Foi criado um script no package.json com o seguinte comando: "test": "percy exec -- cypress run"
 
 Os testes serão executados no modo serverless e, ao final, será gerada uma nova build no Percy.io, contendo os snapshots.
 
